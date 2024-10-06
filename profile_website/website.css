@@ -1,0 +1,130 @@
+.whole_screen{
+  margin: -8px;
+}
+.header{
+  max-width: 100%;
+  position: fixed;
+}
+.homepage{
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.frage{
+  display:flex;
+  flex-direction:column;
+  border: solid rgb(69, 147, 211);
+  margin: 8px;
+  margin-top: 50px;
+  border-radius: 7px;
+  background-color: rgb(143, 194, 236);
+}
+.wer{
+  display: flex;
+  justify-content: center;
+  border: solid rgb(69, 147, 211);
+  color: yellow;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.wertext{
+  display: none;
+  justify-content: center;
+  color: rgb(32, 32, 32);
+}
+
+.process1png{
+  height:auto;
+  max-width: 100%;
+}
+.process2png{
+  max-width: 100%;
+  height: auto;
+}
+.process3png{
+  height: auto;
+  max-width: 100%;
+}
+.process1div{
+  padding:5px;
+  flex:1;
+  border: solid rgb(19, 128, 195);
+  border-radius: 30px;
+  border-width: 3px;
+  margin: 5px;
+  margin-top: 30px;
+  transition: 0.25s;
+}
+.process1div:active{
+  box-shadow: 0px 0px 20px rgb(40, 87, 117);
+}
+.process1div:hover{
+  box-shadow: 0px 0px 20px rgb(40, 87, 117);
+}
+
+.process2div{
+  padding:5px;
+  flex:1;
+  border: solid rgb(19, 128, 195);
+  border-radius: 30px;
+  border-width: 3px;
+  margin:5px;
+  margin-top: 30px;
+  transition: 0.25s;
+}
+.process2div:hover{
+  box-shadow: 0px 0px 20px rgb(40, 87, 117);
+}
+.process2div:active{
+  box-shadow: 0px 0xp 20px rgb(40, 87, 117);
+}
+
+.process3div{
+  padding: 5px;
+  flex: 1;
+  border: solid rgb(19, 128, 195);
+  border-radius: 30px;
+  border-width: 3px;
+  margin: 5px;
+  margin-top: 30px;
+  transition: 0.25s;
+}
+.process3div:hover{
+  box-shadow: 0px 0px 20px rgb(40, 87, 117);
+}
+.process3div:active{
+  box-sizing: 0px 0px 20px rgb(40, 87, 117);
+}
+
+.process1{
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(19, 128, 195);
+  font-family: cursive;
+  font-size:large;
+}
+.process2{
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(19, 128, 195);
+  font-family:cursive;
+  font-size: large;
+}
+.process3{
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(19, 128, 195);
+  font-family:cursive;
+  font-size: large;
+}
+
+.interest{
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}

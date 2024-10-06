@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="website.css">
+    <title>Web-Design Koehler</title>
+  </head>
+  <body>
+    <div class="whole_screen">
+      <img class="header" src="homepage_header.png" alt="Header Image">
+      <img class="homepage" src="homepage.png">
+
+      <div class="frage">
+        <div class="wer" id="clickBox">Wer bin ich?</div>
+        <div class="wertext" id="textContainer"> 
+          Hi, ich bin Philip, komme aus Neuenhain und 16 Jahre alt. Ich gehe in die
+          11. Klasse und programiere Websites wie diese in meiner Freizeit, desweiteren
+          spiele ich auch gern Tennis und zeichne. Mit diesem Projekt möchte ich 
+          meine Kenntnisse Ihnen anbieten und mein Wissen beweissen.
+        </div>
+      </div>
+
+      <script>
+        document.getElementById("clickBox").addEventListener("click", function() {
+            var textContainer = document.getElementById("textContainer");
+            
+            // Toggle-Funktion: Ein-/Ausblenden des Textcontainers
+            if (textContainer.style.display === "none" || textContainer.style.display === "") {
+                textContainer.style.display = "block";  // Text anzeigen
+            } else {
+                textContainer.style.display = "none";   // Text ausblenden
+            }
+        });
+      </script>
+      <div style="display: flex; flex-direction: row;">
+        <div class="process1div">
+          <img src="process1.png" class="process1png">
+          <p class="process1">Persönliches Gespräch über Vorstellungen, Wünsche und Möglichkeiten</p>
+        </div>
+        <div class="process2div">
+          <img src="process2.png" class="process2png">
+          <p class="process2">Entscheidung zwischen verschiedenen Testdesigns</p>
+        </div>
+        <div class="process3div">
+          <img src="process3.png" class="process3png">
+          <p class="process3">Programierung der Website und Check für Fehler</p>
+        </div>
+      </div>
+      <img src="interest.png" class="interest">
+    </div>
+  </body>
+</html>
